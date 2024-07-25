@@ -4,7 +4,12 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Named;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.PersistenceContext;
 
 import com.edu.dao.IPersonaDAO;
 import com.edu.model.Persona;
@@ -12,11 +17,43 @@ import com.edu.model.Persona;
 
 @Named
 public class PersonaDAOImpl implements IPersonaDAO , Serializable{
+	
+	
+	//entity manager
+	//@PersistenceContext(unitName = "Blogp")
+	//private EntityManager em;
 
+	
+	@PostConstruct
+	public void init() {
+		emf = Persistence.createEntityManagerFactory("Blogp");
+		em = emf.createEntityManager();
+	}
+	
+	
+	
+	
+	//
+	private EntityManagerFactory emf;
+	private EntityManager em;
+	
+	
+	
 	@Override
 	public Integer registrar(Persona per) throws Exception {
-		System.out.println(per.getNombres());
-		return 1;
+		
+		//
+		
+		
+		try {
+			em.getTransaction().begin();
+			em.persist(per);
+			em.getTransaction().commit();
+		}catch(Exception e){
+			em.getTransaction().rollback();
+		}
+		
+		return per.getIdPersona();
 	}
 
 	@Override

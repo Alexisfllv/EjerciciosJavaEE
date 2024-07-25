@@ -1,11 +1,11 @@
-#Tue Jul 23 14:44:27 PET 2024
+#Thu Jul 25 15:11:18 PET 2024
 a=finishWizard
 c=0
 cl=org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard
 cmp=usage
 ct=jbt
-d=1721763867710
+d=1721938278688
 l=Wizard class name
-s=1
+s=0
 v=2.3.100
 vl=How many times the 'Finish' button pressed during the day
