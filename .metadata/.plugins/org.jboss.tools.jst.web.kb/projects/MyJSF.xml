@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/alexisfl/.m2/repository/javax/javaee-api/8.0/javaee-api-8.0.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/javax/faces/javax.faces-api/2.3/javax.faces-api-2.3.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/org/primefaces/primefaces/8.0/primefaces-8.0.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource declaration="true" name="%1;" path="%0"/>
+  </core>
+  <el>
+   <linked-el length="20" name="%1" offset="579" path="%2"/>
+   <linked-el length="23" name="%1" offset="494" path="%2"/>
+   <linked-el length="20" name="%1" offset="809" path="%2"/>
+   <linked-el length="19" name="%1" offset="682" path="%2"/>
+   <linked-el length="19" name="%1" offset="422" path="%2"/>
+   <linked-el length="23" name="%1" offset="758" path="%2"/>
+   <linked-el length="20" name="%0" offset="579" path="%2"/>
+   <linked-el length="23" name="%0" offset="494" path="%2"/>
+   <linked-el length="20" name="%0" offset="809" path="%2"/>
+   <linked-el length="19" name="%0" offset="682" path="%2"/>
+   <linked-el length="19" name="%0" offset="422" path="%2"/>
+   <linked-el length="23" name="%0" offset="758" path="%2"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/MyJSF/src/main/webapp/index.xhtml" value="%2"/>
+  <alias path="persona" value="%1"/>
+  <alias path="/MyJSF/src/main/java/com/edu/Persona.java" value="%0"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

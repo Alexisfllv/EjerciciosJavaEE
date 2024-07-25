@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JPServlet&apos; to &apos;JPServletMain&apos;" description="Rename resource &apos;JPServlet&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JPServlet" name="JPServletMain" stamp="1720154083731" updateReferences="true"/>
+</session>

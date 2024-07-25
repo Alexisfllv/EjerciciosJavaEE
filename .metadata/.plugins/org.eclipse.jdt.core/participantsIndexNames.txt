@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+/Users/alexisfl/Documents/MioEcpls/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1830131196.index
+/JPServlet/src/main/java
+/Users/alexisfl/Documents/MioEcpls/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3191154983.index
+/ServletDemo/src/main/java
+/Users/alexisfl/Documents/MioEcpls/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/211618320.index
+/ServletDemo/src/main/java
+/Users/alexisfl/Documents/MioEcpls/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2242668034.index
+/JPServlet/src/main/java
+/Users/alexisfl/Documents/MioEcpls/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/719591316.index
+/JPServletMain/src/main/java
+/Users/alexisfl/Documents/MioEcpls/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3415576361.index
+/JSPServlet/src/main/java

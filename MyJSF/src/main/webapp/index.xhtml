@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head></h:head>
+<body>
+
+	<h:form>	
+		<p:outputLabel value="Nombres" />
+		<p:inputText value="#{persona.nombre}"/>
+		<p:commandButton value="Aceptar" actionListener="#{persona.aceptar()}" update="lblSaludo"/>
+		
+		<p:outputLabel id="lblSaludo" value="#{persona.saludo}" />
+	</h:form>
+	
+	<h:form>
+		<h:outputLabel value="Nombres" />
+		<h:inputText value="#{persona.nombre}"/>
+		<h:commandButton value = "ACEPTAR" actionListener = "#{persona.aceptar()}" />
+		<h:outputLabel value = "#{persona.saludo}" />
+	
+	</h:form>
+	
+	<h:form>
+		<p:button>Click me</p:button>
+	
+	</h:form>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home" version="21.0.3"/>
+    <libraryInfo home="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre" version="1.8.0_412">
+        <bootpath>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/resources.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/rt.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/sunrsasign.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/jsse.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/jce.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/charsets.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/jfr.jar"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="/Users/alexisfl/Library/Java/Extensions"/>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/ext"/>
+            <entry path="/Library/Java/Extensions"/>
+            <entry path="/Network/Library/Java/Extensions"/>
+            <entry path="/System/Library/Java/Extensions"/>
+            <entry path="/usr/lib/java"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="/Users/alexisfl/Documents/jdk8u412-b08/Contents/Home/jre/lib/endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>
