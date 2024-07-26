@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/Users/alexisfl/.m2/repository/javax/javaee-api/8.0/javaee-api-8.0.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/javax/faces/javax.faces-api/2.3/javax.faces-api-2.3.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/org/primefaces/primefaces/8.0/primefaces-8.0.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar"/>
+  <path value="/Users/alexisfl/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="23" name="%0" offset="604" path="%1"/>
+   <linked-el length="23" name="%2" offset="702" path="%1"/>
+   <linked-el length="21" name="%2" offset="810" path="%1"/>
+   <linked-el length="32" name="%3" offset="446" path="%1"/>
+   <linked-el length="29" name="%4" offset="529" path="%1"/>
+   <linked-el length="32" name="%4" offset="446" path="%1"/>
+   <linked-el length="23" name="%4" offset="604" path="%1"/>
+   <linked-el length="32" name="%5" offset="446" path="%1"/>
+   <linked-el length="23" name="%6" offset="702" path="%1"/>
+   <linked-el length="21" name="%7" offset="810" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="personaBean.lista" value="%0"/>
+  <alias path="elemento" value="%2"/>
+  <alias path="personaBean.persona" value="%3"/>
+  <alias path="/MiniBlog/src/main/webapp/index.xhtml" value="%1"/>
+  <alias path="personaBean" value="%4"/>
+  <alias path="personaBean.persona.nombres" value="%5"/>
+  <alias path="elemento.idPersona" value="%6"/>
+  <alias path="elemento.nombres" value="%7"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>
