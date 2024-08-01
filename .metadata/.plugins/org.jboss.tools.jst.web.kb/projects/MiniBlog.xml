@@ -5,11 +5,9 @@
  <paths>
   <path value="/Users/alexisfl/.m2/repository/javax/javaee-api/8.0/javaee-api-8.0.jar"/>
   <path value="/Users/alexisfl/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
-  <path value="/Users/alexisfl/.m2/repository/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar"/>
   <path value="/Users/alexisfl/.m2/repository/javax/faces/javax.faces-api/2.3/javax.faces-api-2.3.jar"/>
   <path value="/Users/alexisfl/.m2/repository/org/primefaces/primefaces/8.0/primefaces-8.0.jar"/>
   <path value="/Users/alexisfl/.m2/repository/com/sun/mail/javax.mail/1.6.0/javax.mail-1.6.0.jar"/>
-  <path value="/Users/alexisfl/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar"/>
  </paths>
  <validation>
   <core validator-id="jboss.cdi.core"/>

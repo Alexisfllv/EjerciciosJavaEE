@@ -2,6 +2,7 @@ package com.edu.service.impl;
 
 import java.util.List;
 
+import javax.ejb.EJB;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -15,7 +16,7 @@ public class PersonaServiceImpl implements IPersonaService{
 	
 	
 	//INSTANCIA
-	@Inject
+	@EJB   //@Inject
 	private IPersonaDAO dao;
 	
 	

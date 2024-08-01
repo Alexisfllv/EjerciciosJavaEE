@@ -2,8 +2,13 @@ package com.edu.dao;
 
 import java.util.List;
 
+import javax.ejb.Local;
+
 import com.edu.model.Persona;
 
+
+
+@Local
 public interface IPersonaDAO {
 	
 	//definir metodos
