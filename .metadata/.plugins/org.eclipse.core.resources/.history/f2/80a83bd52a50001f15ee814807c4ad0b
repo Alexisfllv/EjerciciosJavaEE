@@ -1,0 +1,11 @@
+package com.edu.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Table;
+
+@Table (name =  "publicacion")
+
+public class Publicacion implements Serializable{
+
+}

@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="com.edu.service.impl.PersonaServiceImpl"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.edu.model.Persona"/>
     <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="javax.inject.Named"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -25,4 +24,13 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+    <fullyQualifiedTypeName name="javax.ejb.Local"/>
+    <fullyQualifiedTypeName name="javax.ejb.EJB"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.MapsId"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="com.edu.model.Persona"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
 </qualifiedTypeNameHistroy>

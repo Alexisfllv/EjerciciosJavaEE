@@ -2,10 +2,13 @@ package com.edu.model;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -16,12 +19,24 @@ public class Persona implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer idPersona;
+	
+	//llave 1 - 1
+	@OneToOne(cascade =  CascadeType.ALL, mappedBy = "persona")
+	private Usuario us;
+	
+	
+	
+	@Column(name =  "nombres", nullable = false, length  = 50)
 	private String nombres;
+	@Column(name =  "apellidos", nullable = false, length  = 50)
 	private String apellidos;
+	@Column(name =  "sexo", nullable = false, length  = 1)
 	private String sexo;
+	@Column(name =  "pais", nullable = false, length  = 25)
 	private String pais;
+	@Column(name =  "direccion", nullable = true, length  = 120)
 	private String direccion;
-	private String prueba;
+	@Column(name =  "nombres", nullable = true)
 	private byte[] foto;
 	
 	
@@ -70,12 +85,7 @@ public class Persona implements Serializable {
 	public void setFoto(byte[] foto) {
 		this.foto = foto;
 	}
-	public String getPrueba() {
-		return prueba;
-	}
-	public void setPrueba(String prueba) {
-		this.prueba = prueba;
-	}
+
 	
 	
 	

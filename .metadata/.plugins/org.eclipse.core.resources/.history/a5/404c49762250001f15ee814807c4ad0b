@@ -1,0 +1,34 @@
+package com.edu.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "usuario")
+public class Usuario implements Serializable {
+	
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer idUsuario;
+	
+	@Column
+	@OneToOne
+	private Persona persona;
+	
+	@Column(name =  "usuario", nullable = false, length  = 50)
+	private String usuario;
+	@Column(name =  "contrasena", nullable = false, length  = 50)
+	private String contrasena;
+	@Column(name =  "estado", nullable = false, length  = 1)
+	private String estado;
+
+
+}

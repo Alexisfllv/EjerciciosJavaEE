@@ -1,0 +1,8 @@
+package com.edu.model;
+
+import javax.persistence.Table;
+
+@Table (name =  publicacion)
+public class Publicacion {
+
+}

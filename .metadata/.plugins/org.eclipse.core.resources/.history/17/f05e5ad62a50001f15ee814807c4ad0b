@@ -1,0 +1,13 @@
+package com.edu.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Table;
+
+@Table (name =  "publicacion")
+public class Publicacion implements Serializable{
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+}
