@@ -1,0 +1,10 @@
+package com.edu.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "publicadorseguidor")
+public class PublicadorSeguidor {
+
+}

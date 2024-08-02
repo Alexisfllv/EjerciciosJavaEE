@@ -1,0 +1,24 @@
+package com.edu.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "tag")
+public class Tag {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+	
+	
+	private Publicacion publicacion; 
+	
+	
+	@Column(name = "cuerpo", length = 50)	
+	private String texto;
+}
